@@ -1,0 +1,45 @@
+Tipo
+Endpoint
+Parâmetros
+Descricao
+url
+1. Listar vídeos por ID
+Endpoint: videos.list
+Parâmetros: part, id
+Descrição: Retorna informações sobre vídeos específicos.
+GET https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&id=VIDEO_ID&key=YOUR_API_KEY
+2. Listar canais por ID
+Endpoint: channels.list
+Parâmetros: part, id
+Descrição: Retorna informações sobre canais específicos.
+GET https://www.googleapis.com/youtube/v3/channels?part=snippet,contentDetails,statistics&id=CHANNEL_ID&key=YOUR_API_KEY
+3. Listar playlists por ID
+Endpoint: playlists.list
+Parâmetros: part, id
+Descrição: Retorna informações sobre playlists específicas.
+GET https://www.googleapis.com/youtube/v3/playlists?part=snippet,contentDetails&id=PLAYLIST_ID&key=YOUR_API_KEY
+4. Listar vídeos de uma playlist
+Endpoint: playlistItems.list
+Parâmetros: part, playlistId
+Descrição: Retorna os itens de uma playlist específica.
+GET https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLAYLIST_ID&key=YOUR_API_KEY
+5. Listar canais de um usuário
+Endpoint: channels.list
+Parâmetros: part, forUsername
+Descrição: Retorna informações sobre o canal de um usuário específico.
+GET https://www.googleapis.com/youtube/v3/channels?part=snippet,contentDetails,statistics&forUsername=USERNAME&key=YOUR_API_KEY
+6. Listar vídeos em um canal
+Endpoint: search.list
+Parâmetros: part, channelId, maxResults
+Descrição: Retorna uma lista de vídeos em um canal específico.
+GET https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=CHANNEL_ID&maxResults=10&key=YOUR_API_KEY
+7. Pesquisas gerais
+Endpoint: search.list
+Parâmetros: part, q (consulta), maxResults
+Descrição: Realiza uma pesquisa de vídeos, canais ou playlists.
+GET https://www.googleapis.com/youtube/v3/search?part=snippet&q=SEARCH_TERM&maxResults=10&type=video&key=YOUR_API_KEY
+8. Listar categorias de vídeo
+Endpoint: videoCategories.list
+Parâmetros: part, regionCode
+Descrição: Retorna uma lista de categorias de vídeo disponíveis em uma região específica.
+GET https://www.googleapis.com/youtube/v3/videoCategories?part=snippet&regionCode=BR&key=YOUR_API_KEY
