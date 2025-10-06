@@ -1,0 +1,8 @@
+Aplicativo simples, para movimentação de fotos e vídeos para subpastas de uma pasta específica.
+Uso: copie os vídeos a classificar por ano em uma pasta vazia. 
+IMPORTANTE: Não copie subpastas, pois pode causar confusão. Copie somente imagens e vídeos.
+Copie o nome completo da pasta onde os arquivos estão. Edite o MoveImagensParaSubpastaAno.py para modificar a informação da pasta onde estão os arquivos (linha 9).
+Abra o cmd de dentro da pasta onde o MoveImagensParaSubpastaAno.py está. Digite Python MoveImagensParaSubpastaAno.py. Se necessário, instale as bibliotecas faltantes (pip install pillow por exemplo).
+Dando tudo certo, ao final, os arquivos serão movimentados para as pastas dos respectivos anos. A ideia é que fiquem distribuídos pela data de criação (modificação ou tirada da foto).
+
+Fiz muito poucos testes. Portanto, tome as precauções de praxe. Backup anterior é recomendável.
