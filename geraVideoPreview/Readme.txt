@@ -1,0 +1,1 @@
+Aplicativo criado para gerar previews de vídeo de modo automático. Você seleciona o vídeo. Escolhe um tempo inicial a desprezar (offset a partir do início). Seleciona o tempo de duração do preview e o tempo dos trechos a selecionar. Então, o aplicativo seleciona trechos de x segundos com duração máxima de y segundos para o seu preview.
